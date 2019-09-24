@@ -19,6 +19,9 @@ const app = new Clarifai.App({
 const particlesOption = {
   
   particles: {
+    number: {
+      value: 30
+    },
     line_linked: {
       shadow: {
           enable: true,
