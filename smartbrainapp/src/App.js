@@ -120,7 +120,7 @@ class App extends Component {
         id: data.id,
         name: data.name,
         email: data.email,
-        entries: 0,
+        entries: data.entries,
         joined: data.joined
       }
     })
